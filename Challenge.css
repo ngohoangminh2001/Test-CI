@@ -1,0 +1,70 @@
+body {
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 4px;
+    padding: 24px;
+    box-shadow: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding-left: 85px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+ul li {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+ul li:hover {
+    transform: scale(1.1);
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+body.red {
+    background-color: red;
+    color: red;
+}
+
+body.green {
+    background-color: green;
+    color: green;
+}
+
+body.blue {
+    background-color: blue;
+    color: blue;
+}
